@@ -15,5 +15,60 @@
             android:onClick="onDemo1Clicked"
             android:text="demo1"
             android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onColdObservableClicked"
+            android:text="Cold Observable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="publishToHotObservableClicked"
+            android:text="publish to Hot Observable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSubscribeHotObservableClicked"
+            android:text="subscribe Hot Observable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSubjectHotObservableClicked"
+            android:text="Subject Hot Observable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRefCountToColdObservableClicked1"
+            android:text="ref count to cold observable,all dispose"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRefCountToColdObservableClicked2"
+            android:text="ref count to cold observable,part dispose"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onShareToColdObservableClicked"
+            android:text="share to cold observable,part dispose"
+            android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSingleClicked"
+            android:text="Single"
+            android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>
