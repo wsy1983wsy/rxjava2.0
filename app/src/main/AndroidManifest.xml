@@ -19,6 +19,12 @@
         <activity
             android:name=".chapter02.Chapter02Activity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter02.SubjectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".thread.TheadActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

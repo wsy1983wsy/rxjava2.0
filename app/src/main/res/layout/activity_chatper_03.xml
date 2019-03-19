@@ -11,15 +11,14 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onChapter02Clicked"
-            android:text="Chapter02"
-            android:textAllCaps="false" />
+            android:onClick="onCreateClicked"
+            android:text="create" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onThreadClicke"
-            android:text="Thread"
-            android:textAllCaps="false" />
-
+            android:onClick="onJustClicked"
+            android:text="just" />
     </LinearLayout>
+
 </ScrollView>
