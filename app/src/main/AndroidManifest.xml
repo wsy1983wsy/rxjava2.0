@@ -25,6 +25,9 @@
         <activity
             android:name=".thread.TheadActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter04.OperatorActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -7,5 +7,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onDemo1Clicked"
-        android:text="demo1" />
+        android:text="无切换订阅" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDemo2Clicked"
+        android:text="切换订阅" />
 </LinearLayout>

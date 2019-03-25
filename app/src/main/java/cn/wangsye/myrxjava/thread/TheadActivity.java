@@ -58,4 +58,38 @@ public class TheadActivity extends Activity {
             }
         });
     }
+
+    public void onDemo2Clicked(View view) {
+        Observable<String> observable = Observable
+                .create(new ObservableOnSubscribe<String>() {
+                    @Override
+                    public void subscribe(@NonNull ObservableEmitter<String> emitter) throws Exception {
+                        emitter.onNext("hello");
+                    }
+                })
+                .subscribeOn(Schedulers.newThread())
+                .observeOn(AndroidSchedulers.mainThread());
+
+        observable.subscribe(new Observer<String>() {
+            @Override
+            public void onSubscribe(Disposable d) {
+                comDisposable.add(d);
+            }
+
+            @Override
+            public void onNext(String s) {
+                Log.i("ThreadActivity", s);
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onComplete() {
+
+            }
+        });
+    }
 }

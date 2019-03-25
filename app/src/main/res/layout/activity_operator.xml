@@ -11,23 +11,18 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onChapter02Clicked"
-            android:text="Chapter02"
-            android:textAllCaps="false" />
+            android:onClick="onMapClicked"
+            android:text="map操作符" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onThreadClicke"
-            android:text="Thread"
-            android:textAllCaps="false" />
-
+            android:onClick="onFlatmapClicked"
+            android:text="flatmap操作符" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onFourClicke"
-            android:text="Four"
-            android:textAllCaps="false" />
-
+            android:onClick="onGroupByClicked"
+            android:text="groupBY操作符" />
     </LinearLayout>
 </ScrollView>

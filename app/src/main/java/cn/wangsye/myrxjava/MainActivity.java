@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import cn.wangsye.myrxjava.chapter02.Chapter02Activity;
+import cn.wangsye.myrxjava.chapter04.OperatorActivity;
 import cn.wangsye.myrxjava.thread.TheadActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,8 +26,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onThreadClicke(View view){
+    public void onThreadClicke(View view) {
         Intent intent = new Intent(this, TheadActivity.class);
         startActivity(intent);
     }
+
+    public void onFourClicke(View view) {
+        Intent intent = new Intent(this, OperatorActivity.class);
+        startActivity(intent);
+    }
+
 }
